@@ -2,7 +2,7 @@ FROM node:16-alpine
 
 WORKDIR /
 
-RUN npm i
+RUN npm i -g
 
 CMD ["node api/dist/main"]
 
