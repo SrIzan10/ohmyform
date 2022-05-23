@@ -2,7 +2,7 @@ FROM node:16-alpine
 
 CMD ["node api/dist/main"]
 
-
+EXPOSE 3000
 # ## Build U## Build UI
 # FROM node:16-alpine as ui
 
