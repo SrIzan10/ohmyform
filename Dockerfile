@@ -1,5 +1,7 @@
 FROM node:16-alpine
 
+WORKDIR /
+
 RUN npm i
 
 CMD ["node api/dist/main"]
