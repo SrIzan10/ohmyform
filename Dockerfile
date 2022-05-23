@@ -16,7 +16,7 @@ CMD ["node api/dist/main"]
 
 # CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
 # # CMD [ "yarn", "start:prod" ]
-I
+
 # FROM node:16-alpine as ui
 
 # WORKDIR /usr/src/ui
