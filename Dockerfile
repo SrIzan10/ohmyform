@@ -13,7 +13,7 @@ CMD ["node api/dist/main"]
 # # install node-prune (https://github.com/tj/node-prune)
 # RUN curl -sfL https://install.goreleaser.com/github.com/tj/node-prune.sh | bash -s -- -b /usr/local/bin
 
-…
+
 # CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
 # # CMD [ "yarn", "start:prod" ]
 I
