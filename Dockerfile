@@ -1,5 +1,7 @@
 FROM node:16-alpine
 
+RUN npm i
+
 CMD ["node api/dist/main"]
 
 EXPOSE 3000
